@@ -1,0 +1,46 @@
+﻿<Page x:Class="FrameAppITS.PagesMain.PageMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FrameAppITS.PagesMain"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageMenu">
+
+    <Grid>
+        <StackPanel Orientation="Vertical"
+                    >
+            <TextBlock Name="DirTb">
+                <Hyperlink Name="DirHL" Click="DirHL_Click">
+                    Директор
+                </Hyperlink>
+            </TextBlock>
+            <TextBlock Name="UristTb">
+                <Hyperlink Name="UristHL" Click="UristHL_Click">
+                    Юрист
+                </Hyperlink>
+            </TextBlock>
+            <TextBlock Name="BuhTb">
+                <Hyperlink Name="BuhHL" Click="BuhHL_Click">
+                    Бухгалтер
+                </Hyperlink>
+            </TextBlock>
+            <TextBlock Name="InjTb">
+                <Hyperlink Name="InjHL" Click="InjHL_Click">
+                    Инженеррная группа
+                </Hyperlink>
+            </TextBlock>
+            <TextBlock Name="MeneTb">
+                <Hyperlink Name="MeneHL" Click="MeneHL_Click">
+                    Менеджер
+                </Hyperlink>
+            </TextBlock>
+            <TextBlock Name="SysTb">
+                <Hyperlink Name="SysHL" Click="SysHL_Click">
+                    Сисадмин
+                </Hyperlink>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
